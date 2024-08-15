@@ -8,7 +8,7 @@ class DemoApplicationUT {
 
     @Test
     void hello() {
-        assertThat("Hello World").isEqualTo(new DemoApplication().hello());
+        assertThat(new DemoApplication().hello()).isEqualTo("Hello World");
     }
 
 }
